@@ -122,7 +122,7 @@ And there is, you installed my Custom Dynamic Difficulty. 🎉🎉🎉🎉🎉�
     ```
 ---
 
-## Reported issues
+## ⚠️Reported issues
 ```
 Angelscript: Not allowed: in section 'c:/program files (x86)/steam/steamapps/common/sven co-op/svencoop_addon/scripts/plugins/DynamicDifficulty.as', at (859, 21):
 Angelscript: Function Angelscript: SKValue:
@@ -130,7 +130,7 @@ Angelscript: Message: Index out of bounds
 ERROR: Angelscript: CASBaseCallable::Call: Execution of function '::MapActivate' failed!
 ```
 
-## Future Ideas
+## 💡Future Ideas
 
 In the DDX-Maplist.txt add a way to specific the difficulty to the map, the velocity of the enemies and the barnacle eat.
 
