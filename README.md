@@ -36,7 +36,7 @@ Add this
 } 
 ```
 
-And there is, you installed the my Dynamic Difficulty. 🎉🎉🎉🎉🎉🎉
+And there is, you installed my Custom Dynamic Difficulty. 🎉🎉🎉🎉🎉🎉
 
 ## What is new/changed in this script?
 
