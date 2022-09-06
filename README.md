@@ -1,6 +1,6 @@
 # My-Custom-Dynamic-Difficulty
 > Based on Cubemath's Dynamic Difficulty0~10.
----
+
 ## Installation Guide
 
 Download this repository and extract it's contents inside `Steam\steamapps\common\Sven Co-op\svencoop\`
@@ -28,7 +28,7 @@ That should look like this:
 
 - 💡I added a timer to see how much time has passed on the map.
     - ⚠️Just admins can modificate this. 
-    - To modificate this, put in the console `.admin_timer_mode 0-2`.
+    - ⚠️To modificate this, put in the console `.admin_timer_mode 0-2`.
     ```
     Mode 0: Deactivate the timer.
     ```
@@ -75,15 +75,11 @@ That should look like this:
     `In the console:`
     ```
     .diff [number] - All players
-    ```
-    ```
     .admin_diff [number] - Only admins. This will change the difficulty without vote
     ```
     `In the chat:`
     ```
     /vote diff [number] - All players
-    ```
-    ```
     /votediff [number] - All player
     ```
     
@@ -101,3 +97,27 @@ That should look like this:
     ```
     .admin_clamp_diff -1 -1
     ```
+---
+
+## Reported issues
+```
+Angelscript: Not allowed: in section 'c:/program files (x86)/steam/steamapps/common/sven co-op/svencoop_addon/scripts/plugins/DynamicDifficulty.as', at (859, 21):
+Angelscript: Function Angelscript: SKValue:
+Angelscript: Message: Index out of bounds
+ERROR: Angelscript: CASBaseCallable::Call: Execution of function '::MapActivate' failed!
+```
+
+## Future Ideas
+
+In the DDX-Maplist.txt add a way to specific the difficulty to the map, the velocity of the enemies and the barnacle eat.
+
+Like:
+```
+hl_05_a1 <- This will disabled the difficulty in this maps.
+hl_05_a1 99 <- This will put the difficulty in 99% regardless of the difficulty.
+hl_05_a1 99 1.5 <- This will put the difficulty in 99% regardless of the difficulty with the monster velocity multiplier in 1.5.
+hl_05_a1 99 1.5 9 <- This will put the difficulty in 99% regardless of the difficulty with the monster velocity multiplier in 1.5 and the barnacle eat velocity in 9 unities per frame to eat.
+```
+
+
+
