@@ -18,6 +18,25 @@ That should look like this:
                 ├── 📄DDX-Maplist.txt
                 └── 📄DDX-Matrix.txt        
 ```
+
+Now, in the default_plugins.txt. 
+
+> In the case you don't know where is the default_plugins.txt x[
+```
+└── 📁svencoop
+     └── 📄default_plugins.txt
+```
+
+Add this
+```
+	"plugin"
+	{
+		"name" "Dynamic Difficulty"
+		"script" "Gaftherman/DynamicDifficulty"
+	} 
+```
+
+
 ## What is new/changed in this script?
 
 - 🛠The skills now are reading from store/DDX-Matrix.txt
