@@ -62,6 +62,7 @@ And there is, you installed my Custom Dynamic Difficulty. 🎉🎉🎉🎉🎉�
     ```
     ![](https://i.imgur.com/8V9uPRc.png)
     ![](https://i.imgur.com/QetOUFh.png)
+    ![](https://i.imgur.com/RgiHNYk.png)
     
  - 💡I added a way to change the velocity of the enemies depending of the difficult. It's like a multiplier. 
     - ⚠️Putting a multiplier too high may not work.
@@ -75,18 +76,17 @@ And there is, you installed my Custom Dynamic Difficulty. 🎉🎉🎉🎉🎉�
         1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.3, 1.6
     };
     ```
-  - 💡I added a way to barnacle eat more fast depending of the difficult. 
-     - ⚠️Putting a value too high may not work.
-     ```angelscript
-     /****************************/
-     /* Barnacle speed eat array */
-     /****************************/
-     private array<double> BarnacleEatSpeed =
-     {
-        8.0, 8.0, 8.0, 8.0, 8.0, 12.0, 16.0, 24.0
-     };
-     ```
-    
+ - 💡I added a way to barnacle eat more fast depending of the difficult. 
+    - ⚠️Putting a value too high may not work.
+    ```angelscript
+    /****************************/
+    /* Barnacle speed eat array */
+    /****************************/
+    private array<double> BarnacleEatSpeed =
+    {
+       8.0, 8.0, 8.0, 8.0, 8.0, 12.0, 16.0, 24.0
+    };
+    ```
   - 💡I added a way to vote for the player to change the difficulty on-the-fly.
     - ⚠️There is a delay of 15 seconds between vote. To avoid spam.
     - ⚠️If the player vote more than 8 times, He will not be able to vote for 80 seconds.
