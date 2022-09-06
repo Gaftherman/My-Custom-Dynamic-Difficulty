@@ -1,5 +1,5 @@
 # My-Custom-Dynamic-Difficulty
-> Based on Cubemath's Dynamic Difficulty 0 to 10.
+> Based on Cubemath's Dynamic Difficulty0~10.
 ---
 ## Installation Guide
 
@@ -85,4 +85,19 @@ That should look like this:
     ```
     ```
     /votediff [number] - All player
+    ```
+    
+  - 💡I added a way clamp the difficulty.
+    - ⚠️You need to be admin to change this.
+    - ⚠️They will not be able to vote under the minimum difficulty.
+    - ⚠️They will not be able to vote above the maximun difficulty.
+    - ⚠️This will be permanent. And restart will not change this.
+    
+    `To clamp the difficulty:`
+    ```
+    .admin_clamp_diff [min number] [max number]
+    ```
+    `To disable the clamped difficulty`
+    ```
+    .admin_clamp_diff -1 -1
     ```
