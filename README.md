@@ -3,7 +3,7 @@
 
 ## Installation Guide
 
-Download this repository and extract it's contents inside `Steam\steamapps\common\Sven Co-op\svencoop\`
+[Download this repository](https://github.com/Gaftherman/My-Custom-Dynamic-Difficulty/archive/refs/heads/main.zip) and extract it's contents inside `Steam\steamapps\common\Sven Co-op\svencoop\`
 
 That should look like this:
 
