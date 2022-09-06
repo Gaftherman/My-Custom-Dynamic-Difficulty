@@ -119,5 +119,11 @@ hl_05_a1 99 1.5 <- This will put the difficulty in 99% regardless of the difficu
 hl_05_a1 99 1.5 9 <- This will put the difficulty in 99% regardless of the difficulty with the monster velocity multiplier in 1.5 and the barnacle eat velocity in 9 unities per frame to eat.
 ```
 
+## Credits
 
+* Base of this code [Cubemath DD10 plugin](https://github.com/CubeMath/UCHFastDL2/blob/master/svencoop/scripts/plugins/cubemath/DynamicDifficulty10.as)
+* Mikk for the feedback [Mikk github](https://github.com/Mikk155)
+* KEZÆIV for the feedback [KEZÆIV youtube channel](https://www.youtube.com/channel/UCV5W8sCs-5EYsnQG4tAfoqg)
 
+Any features/feedback to add please contact me `Gaftherman#0231` or join to this discord channel [Discord server](https://discord.gg/VsNnE3A7j8).
+Thx for read this :D
