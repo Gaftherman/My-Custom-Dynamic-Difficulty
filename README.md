@@ -21,7 +21,7 @@ That should look like this:
 ## What is new/changed in this script?
 
 - 🛠The skills now are reading from store/DDX-Matrix.txt
-    > Reason: An easier way to edit enemy skills.
+    > Reason: An easier way to add/edit enemy skills.
 
 - 🛠The DDX-Maplist.txt now works in reverse. With this I mean that the maps that you put here will be where the DD doesn't work (it will take the default skill of SC)
     > Reason: It's preferable to make a BlackList instead of a WhiteList in my opinion.
