@@ -66,7 +66,8 @@ And there is, you installed my Custom Dynamic Difficulty. 🎉🎉🎉🎉🎉�
     
  - 💡I added a way to change the velocity of the enemies depending of the difficult. It's like a multiplier. 
     - ⚠️Putting a multiplier too high may not work.
- 
+   
+    `Default values:`
     ```angelscript
     /***********************/
     /* Monster speed array */
@@ -78,6 +79,8 @@ And there is, you installed my Custom Dynamic Difficulty. 🎉🎉🎉🎉🎉�
     ```
  - 💡I added a way to barnacle eat more fast depending of the difficult. 
     - ⚠️Putting a value too high may not work.
+
+    `Default values:`
     ```angelscript
     /****************************/
     /* Barnacle speed eat array */
