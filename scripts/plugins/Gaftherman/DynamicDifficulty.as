@@ -1387,7 +1387,7 @@ final class ChangeVelocity
                 {
                     if( monsters.m_hEnemy.GetEntity() !is null && abs(monsters.pev.origin.z - ((monsters.m_hEnemy.GetEntity().pev.origin.z + monsters.m_hEnemy.GetEntity().pev.view_ofs.z) - 8)) >= 44 )
                     {
-                        monsters.m_hEnemy.GetEntity().pev.origin.z += InitialBarnacleEatSpeed;
+                        monsters.m_hEnemy.GetEntity().pev.origin.z += (InitialBarnacleEatSpeed - 8);
                     }	
                 }
                 else
@@ -1396,7 +1396,7 @@ final class ChangeVelocity
                 }
             }
         }
-        g_Scheduler.SetTimeout( @this, "ThinkChangeBarnacleEatSpeed", 1.0 );
+        g_Scheduler.SetTimeout( @this, "ThinkChangeBarnacleEatSpeed", 0.0 );
     }
 
     void ThinkChangeMonsterVelocity()
