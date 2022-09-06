@@ -1,5 +1,5 @@
 # My-Custom-Dynamic-Difficulty
-> Based on Cubemath's Dynamic Difficulty X.
+> Based on Cubemath's Dynamic Difficulty 0 to 10.
 ---
 ## Installation Guide
 
