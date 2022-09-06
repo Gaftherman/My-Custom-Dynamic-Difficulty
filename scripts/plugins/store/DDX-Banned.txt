@@ -1,3 +1,4 @@
-//Put here the people you don't want to vote.
+//Put at here player's steamID that you want them unable to vote.
 //Example:
+//STEAM_0:0:000000000
 //STEAM_0:1:107344687
