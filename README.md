@@ -3,7 +3,7 @@
 ---
 ## Installation Guide
 
-Download this repository and extract it's contents inside ``Steam\steamapps\common\Sven Co-op\svencoop\``
+Download this repository and extract it's contents inside `Steam\steamapps\common\Sven Co-op\svencoop\`
 
 That should look like this:
 
@@ -28,7 +28,7 @@ That should look like this:
 
 - 💡I added a timer to see how much time has passed on the map.
     - ⚠️Just admins can modificate this. 
-    - To modificate this, put in the console ".admin_timer_mode 0-2"
+    - To modificate this, put in the console `.admin_timer_mode 0-2`.
     ```
     Mode 0: Deactivate the timer.
     ```
@@ -68,5 +68,21 @@ That should look like this:
      ```
     
   - 💡I added a way to vote for the player to change the difficulty on-the-fly.
-
-
+    - ⚠️There is a delay of 15 seconds between vote. To avoid spam.
+    - ⚠️If the player vote more than 8 times, He will not be able to vote for 80 seconds.
+    - ⚠️You can add the SteamID of the people that you don't want to vote in the DDX-Banned.txt.
+    
+    `In the console:`
+    ```
+    .diff [number] - All players
+    ```
+    ```
+    .admin_diff [number] - Only admins. This will change the difficulty without vote
+    ```
+    `In the chat:`
+    ```
+    /vote diff [number] - All players
+    ```
+    ```
+    /votediff [number] - All player
+    ```
