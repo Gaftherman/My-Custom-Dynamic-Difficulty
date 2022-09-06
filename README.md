@@ -29,13 +29,14 @@ Now, in the default_plugins.txt.
 
 Add this
 ```
-	"plugin"
-	{
-		"name" "Dynamic Difficulty"
-		"script" "Gaftherman/DynamicDifficulty"
-	} 
+"plugin"
+{
+	"name" "Dynamic Difficulty"
+	"script" "Gaftherman/DynamicDifficulty"
+} 
 ```
 
+And there is, you installed the my Dynamic Difficulty. 🎉🎉🎉🎉🎉🎉
 
 ## What is new/changed in this script?
 
